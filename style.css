@@ -16,6 +16,12 @@ button {
   border: none;
 }
 
+input {
+  background: transparent;
+  border: none;
+  outline: 0;
+}
+
 body {
   background-color: #00738D;
 }
@@ -158,18 +164,72 @@ nav {
 
 .bouton_reserver {
   color: #FFFFFF;
+  font-size: 15px;
   width: 80%;
   background-color: #D9A017;
-  border: solid 1px #000000;
+  border: solid 3px #000000;
 }
 
-
 .section_reservation {
-  padding: 80px;
+  padding: 90px 80px;
   background: linear-gradient(45.5deg, #1f1f1f, #00738d00);
 }
 
+.groupe {
+  margin: 35px;
+  border: solid #D9A017 2px;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.groupe_name {
+  color: #FFFFFF;
+  font-size: 35px;
+  text-align: center;
+}
+
+.text_reservation {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.input_coordonnees {
+  margin: 0 50px 0 4px;
+  width: 200px;
+  border-bottom: solid #D9A017 2px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.cases {
+  margin: 0 30px 0 4px;
+}
+
+.radio {
+  margin: 0 30px 0 4px;
+}
+
+.selector {
+  width: 85%;
+  height: 50px;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.position_envoyer {
+  display: flex;
+  justify-content: center;
+}
+
+.envoyer {
+  background-color: #D9A017;
+  padding: 11px 20px;
+  color: #FFFFFF;
+  font-size: 15px;
+}
 
 footer {
   background-color: #FFFFFF;
