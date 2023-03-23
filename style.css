@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+body {
+  background-color: #00738D;
+}
+
+header {
+  background-image: url("img/fond.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  font-family: 'Norican', cursive;
+  padding: 20px;
+  background-color: #0000004c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.liens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_liens {
+  background-color: #FFFFFF;
+  color: white;
+  padding: 2px;
+  border-radius: 50px;
+  margin: 0 80px;
+  width: 25px;
+}
+
+.text_liens {
+  font-size: 25px;
+  margin: 10px 30px;
+}
+
+.mois_gratuit {
+  font-family: 'Coda Caption', sans-serif;
+  font-size: 35px;
+  background-color: #ffffff4c;
+  padding: 15px;
+  text-align: center;
+}
+
+.text_blanc {
+  color: #FFFFFF;
+}
+
+.section_titre {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sport_factory {
+  margin-bottom: -80px;
+  font-family: 'Coda Caption', sans-serif;
+  color: #D9A017;
+  font-size: 100px;
+  text-shadow: 5px 4px 10px #000000;
+}
+
+.salle_de_sport {
+  font-family: 'Norican', cursive;
+  color: #FFFFFF;
+  font-size: 100px;
+  text-shadow: 5px 4px 10px #000000;
+}
+
+.titre {
+  font-family: 'Coda Caption', sans-serif;
+  color: #D9A017;
+  font-size: 55px;
+  text-shadow: 5px 4px 10px #000000;
+  text-align: center;
+}
+
+.text_sou_titre {
+  margin-top: -50px;
+  font-family: 'Norican', cursive;
+  color: #FFFFFF;
+  font-size: 55px;
+  text-shadow: 5px 4px 10px #000000;
+  text-align: center;
+}
+
+.section_horaires {
+  margin: 60px 80px;
+}
+
+.article_horaires {
+  margin: 25px 0;
+}
+
+.table {
+  background: linear-gradient(0.25turn, #000000, #00738d00);
+  border: solid 1px;
+  width: 100%;
+  padding: 20px;
+}
+
+.table_titre {
+  font-family: 'Norican', cursive;
+  color: #D9A017;
+  font-size: 25px;
+  text-align: start;
+}
+
+.position_date {
+  display: flex;
+  justify-content: center;
+}
+
+.date_horraire {
+  color: #FFFFFF;
+  width: 100%;
+  padding: 15px;
+}
+
+.date_horraire_blanc {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 15px;
+}
+
+.date {
+  margin-right: 50px;
+  text-align: start;
+}
+
+.h {
+  text-align: center;
+}
+
+.bouton_reserver {
+  color: #FFFFFF;
+  width: 80%;
+  background-color: #D9A017;
+  border: solid 1px #000000;
+}
+
+
+.section_reservation {
+  padding: 80px;
+  background: linear-gradient(45.5deg, #1f1f1f, #00738d00);
+}
+
+
+
+footer {
+  background-color: #FFFFFF;
+  padding: 35px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eden_school {
+  width: 130px;
+  margin-bottom: 15px;
+}
